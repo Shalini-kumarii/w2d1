@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+}
+.main{
+    height: 500px;
+}
+.justify-left {
+    justify-content: left;
+}
+.justify-right {
+    justify-content: right;
+}
+.justify-center {
+    justify-content: center;
+}
+.jutify-around{
+	justify-content: space-around;
+}
+.align-center{
+	align-items: center;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.nav{
+	color:black;
+	background-color:silver;
+	padding-left:12%;
+	padding-right: 5%;
+}
+.logo input[type=text] {
+    
+    font-size: 17px;
+    border: 1px solid black;
+}
+.logo button{
+    background-color:steelblue;
+    
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    box-shadow: 10px 5px 5px black;
+}
+.left{
+    width:40%;
+}
+.right{
+    width:20%;
+}
+.main{
+    height: 500px;
+}
+.info{
+	border: 3px solid black;
+	margin-bottom: 50px;
+    margin:50px;
+}
+.profileinfoholder{
+	padding:3%;
+    display:flex;
+}
+.profileinfoholder1{
+    padding: 3%;
+}
+.column{
+	width: 80%;
+}
+.col-1{
+	flex: 1;
+}
+.col-2{
+	flex: 2;
+}
+.col-3{
+    flex:3;
+}
+.subdiv{
+    margin:20px;
+    padding: 20px;
+}
+.subdiv button{
+    background-color:yellow;
+    border: 1px solid black;
+    height: 30px;
+    width: 90px;
+    box-shadow: 10px 5px 5px black;
+}
+.subdiv a{
+    color:blue;
+}
+.connectiondiv{
+    padding:20px;
+}
+.connectiondiv button{
+    background-color:green;
+    border: 1px solid black;
+    height: 30px;
+    width: 120px;
+    box-shadow: 10px 5px 5px black;
+    margin:10px;
+}
+.connectiondiv p{
+font-weight: bold;
+}
